@@ -1,7 +1,7 @@
 
 # Game of Greed 1
 
-Submission pull request: [here]()
+Submission pull request: [here](https://github.com/kimmyd70/game-of-greed/pull/1)
 
 __________
 #### Developers: Kim Damalas (team)
