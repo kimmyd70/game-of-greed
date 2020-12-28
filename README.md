@@ -72,12 +72,6 @@ __________
 22 Dec:
 ___________
 
-## Whiteboard
-____________
-
-![whiteboard session](./assets/game-of-greed-whiteboard.png)
-__________
-
 ## Testing
 ________
 Testing accomplished using built-in `pytest` and tests coded into `test_game_logic.py`
