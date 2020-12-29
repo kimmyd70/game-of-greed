@@ -1,6 +1,9 @@
 from game_of_greed import __version__
+from game_of_greed.game_logic import GameLogic, Banker
+roll_dice = GameLogic.roll_dice
 
 
+# passes
 def test_version():
     assert __version__ == '0.1.0'
 
@@ -10,7 +13,18 @@ def test_version():
 
 # When rolling 1 to 6 dice ensure…
 #     A sequence of correct length is returned
-#     Each item in sequence is an integer with value between 1 and 6
+
+# passes: generates correct length
+def test_roll_dice_length():
+    actual = len(roll_dice(4))
+    expected = 4
+    assert actual == expected
+    
+#  Each item in sequence is an integer with value between 1 and 6
+def test_roll_dice_int():
+    actual = type(roll_dice(4))
+    expected = tuple
+    assert actual == expected
 
 # Testing - Calculate Score
 
