@@ -21,7 +21,7 @@ class GameLogic:
     def roll_dice(die_num:int):
         # create tuple with random int 1-6
         # The length of tuple must match the argument given 
-        # to roll_dice method???
+        
         roll_result = tuple(())
         # loop through rolling single die for die_num number of times
         # add to tuple and return 
