@@ -1,10 +1,10 @@
 
 # Game of Greed 1
 
-Submission pull request: [here]()
+Submission pull request: [here](https://github.com/kimmyd70/game-of-greed/pull/1)
 
 __________
-#### Developers: Kim Damalas (team)
+#### Developers: Kim Damalas, Amber Falbo, Brandon Gonzalez, Mason Fryberger
 #### Created: 27 December 2020
 #### Version 1.0 
 #### Class: seattle-py-401n2
@@ -72,12 +72,6 @@ __________
 22 Dec:
 ___________
 
-## Whiteboard
-____________
-
-![whiteboard session](./assets/game-of-greed-whiteboard.png)
-__________
-
 ## Testing
 ________
 Testing accomplished using built-in `pytest` and tests coded into `test_game_logic.py`
@@ -118,6 +112,6 @@ ____________
 ____________
 The team includes:  
 - Kim Damalas
-- 
-- 
-- 
+- Amber Falbo
+- Brandon Gonzalez
+- Mason Fryberger
