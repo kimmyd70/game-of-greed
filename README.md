@@ -4,7 +4,7 @@
 Submission pull request: [here](https://github.com/kimmyd70/game-of-greed/pull/1)
 
 __________
-#### Developers: Kim Damalas (team)
+#### Developers: Kim Damalas, Amber Falbo, Brandon Gonzalez, Mason Fryberger
 #### Created: 27 December 2020
 #### Version 1.0 
 #### Class: seattle-py-401n2
@@ -112,6 +112,6 @@ ____________
 ____________
 The team includes:  
 - Kim Damalas
-- 
-- 
-- 
+- Amber Falbo
+- Brandon Gonzalez
+- Mason Fryberger
