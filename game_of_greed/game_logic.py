@@ -1,4 +1,5 @@
 import random
+from collections import Counter
 
 class GameLogic:
     
@@ -7,6 +8,12 @@ class GameLogic:
         # calculate the roll's score using rules of the game
         pass
         return score_from_roll
+    
+# use count = Counter--(1,1,3,4) ---> (1:2, 3:1, 4:1)
+# print/access count[key]; returns 0 for key not found
+# print(count.most_common()) -----> list of tuples with descending: first group important
+# [(1,2), (3,1), (4,1)]  -----> access with index count.most_common()[index]
+# straight with most_common is list length of 6
     
 # Single fives are worth 50 points
 # Single ones are worth 100 points
@@ -26,7 +33,7 @@ class GameLogic:
         # loop through rolling single die for die_num number of times
         # add to tuple and return 
         for die in range(1,die_num+1):
-            roll_result = roll_result + (random.randint(0,6),)
+            roll_result = roll_result + (random.randint(1,6),)
         return roll_result   
 
 class Banker:
